@@ -124,7 +124,7 @@ Working in pairs, see if you can figure out how to do the following:
 
 1. Change the application so that it sends a text message to your mobile phone.
 2. Change the title in the browser title bar to something more exciting.
-3. Change the images to seem more win-y, fail-y, or meh-y.
+3. Change the images to seem more win-y, fail-y, or meh-y. Check out [Giphy](http://giphy.com/) for some good options :)
 4. Employ some of the CSS tricks you picked up during the prework to
 pretty the page up a bit:
   * Try out some different fonts
