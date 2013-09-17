@@ -58,7 +58,7 @@ We're going to modify this Sinatra application to make sure that everything work
 ```
    bundle
 ```
-
+* Set up your SSH Keys by following these [instructions](https://help.github.com/articles/generating-ssh-keys). Ask us for help if you are having trouble.
 * Sign up for Heroku: https://id.heroku.com/signup
 * Setup Heroku toolbelt: https://toolbelt.heroku.com
 * Login to Heroku by typing:
