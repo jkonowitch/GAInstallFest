@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Welcome to WDI</title>
+    <link href="css/screen.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Welcome to WDI ZOMG!!!!!!</h1>
+
+    <% if flash[:notice] %>
+      <div class="flash">
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
+
+    <form action="/submit" method="POST">
+      <h2>How did your installfest go?!</h3>
+
+      <div>
+        <input type="text" name="name" placeholder="Your name..."/>
+      </div>
+
+      <div>
+        <label for="answer">Yes!</label>
+        <input type="radio" name="answer" value="success"/>
+      </div>
+      <img src="images/yes.gif"/>
+
+      <div>
+        <label for="answer">Meh...</label>
+        <input type="radio" name="answer" value="meh" />
+      </div>
+      <img src="images/shrug.gif"/>
+
+      <div>
+        <label for="answer">Fail :(</label>
+        <input type="radio" name="answer" value="fail" />
+      </div>
+      <img src="images/fail.gif"/>
+
+      <div>
+        <button>
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
