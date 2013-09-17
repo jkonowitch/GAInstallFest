@@ -13,11 +13,11 @@ We're going to modify this Sinatra application to make sure that everything work
 ```
 
 * Fork this repo by clicking the 'fork' button above
-![forking](fork.png)
+![forking](images/fork.png)
 
 * Get your clone URL from here:
 
-![clone_url](cloneurl.png)
+![clone_url](images/cloneurl.png)
 
 * Clone your forked repository. The command should look something like this:
 
@@ -39,11 +39,11 @@ We're going to modify this Sinatra application to make sure that everything work
 
 * Fill in the account info here. We'll put what to enter on the board.
 
-![account_info](accountinfo.png)
+![account_info](images/accountinfo.png)
 
 * Same thing for the 'from' and 'to' fields:
 
-![phone](phone.png)
+![phone](images/phone.png)
 
 * Save your file
 
