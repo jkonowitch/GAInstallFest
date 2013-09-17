@@ -13,10 +13,16 @@ We're going to modify this Sinatra application to make sure that everything work
 ```
 
 * Fork this repo by clicking the 'fork' button above
-* Clone your forked repository, the URL is on your new github page.
+![forking](fork.png)
+
+* Get your clone URL from here:
+
+![clone_url](cloneurl.png)
+
+* Clone your forked repository. The command should look something like this:
 
 ```
-    git clone https://github.com/whoever/GAInstallfest.git
+    git clone https://github.com/____YOUR_GITHUB_NAME_______/GAInstallfest.git
 ```
 
 * Change into your new project folder
@@ -24,6 +30,22 @@ We're going to modify this Sinatra application to make sure that everything work
 ```
     cd GAInstallfest
 ```
+
+* Open the app in Sublime and navigate to the `welcome_app.rb` file
+
+```
+    subl .
+```
+
+* Fill in the account info here. We'll put what to enter on the board.
+
+![account_info](accountinfo.png)
+
+* Same thing for the 'from' and 'to' fields:
+
+![phone](phone.png)
+
+* Save your file
 
 * Install bundler
 
@@ -61,23 +83,25 @@ http://cool-bananas-922.herokuapp.com.
 * Cut+paste your heroku URL into your favorite web browser. You should see
 the example app.
 
+* Fill in the survey and hit the `submit` button
+
 # Development cycle
 
 You should work through the TODO list below, using the following methodology:
 
-1. Run the example application using the following command. You should see the web application running locally in your browser at
+* Run the example application using the following command. You should see the web application running locally in your browser at
 http://localhost:4567.
 
 ```
     ruby welcome_app.rb
 ```
 
-2. Make a change locally in your text editor.
+* Make a change locally in your text editor.
 
-3. If you make a change to the welcome_app.rb, you'll need to restart the
+* If you make a change to the welcome_app.rb, you'll need to restart the
 server. You do this by killing the process using CTRL+C in your terminal window.
 
-4. Once you're happy with your change, save your changes to your local repo
+* Once you're happy with your change, save your changes to your local repo
 using the following commands:
 
 ```
@@ -86,9 +110,10 @@ using the following commands:
     git push heroku master
 ```
 
-5. Test your changes on the Heroku URL you remembered from before. Make sure it worked!
+* Test your changes on the Heroku URL you remembered from before. Make sure it worked!
 
-6. At the end of the day, push your changes to your own github profile using
+* At the end of the day, push your changes to your own github profile using
+
 ```
    git push origin master
 ```
