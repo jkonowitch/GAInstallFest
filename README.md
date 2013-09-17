@@ -16,13 +16,13 @@ We're going to modify this Sinatra application to make sure that everything work
 * Clone your forked repository, the URL is on your new github page.
 
 ```
-    git clone https://github.com/whoever/MyAmazingFirstApp.git
+    git clone https://github.com/whoever/GAInstallfest.git
 ```
 
 * Change into your new project folder
 
 ```
-    cd MyAmazingFirstApp
+    cd GAInstallfest
 ```
 
 * Install bundler
@@ -69,12 +69,12 @@ You should work through the TODO list below, using the following methodology:
 http://localhost:4567.
 
 ```
-    ruby my_amazing_web_app.rb
+    ruby welcome_app.rb
 ```
 
 2. Make a change locally in your text editor.
 
-3. If you make a change to the my_amazing_web_app.rb, you'll need to restart the
+3. If you make a change to the welcome_app.rb, you'll need to restart the
 server. You do this by killing the process using CTRL+C in your terminal window.
 
 4. Once you're happy with your change, save your changes to your local repo
