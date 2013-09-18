@@ -11,7 +11,6 @@ get '/' do
 end
 
 post '/submit' do
-  @message = "Someone thought your image was #{params[:answer]}"
 
   @account_sid = ""
   @auth_token = ""
