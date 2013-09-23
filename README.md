@@ -4,12 +4,10 @@ We're going to modify this Sinatra application to make sure that everything work
 
 # Install
 
-* Create a folder to use for your upcoming project work, I suggest /install_project
+* `cd` into your wdi folder
 
 ```
-    cd ~
-    mkdir install_project
-    cd install_project
+    cd ~/dev/wdi
 ```
 
 * Fork this repo by clicking the 'fork' button above
